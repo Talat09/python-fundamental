@@ -24,3 +24,9 @@ x=1
 while x<=100:
     print(x)
     x+=1
+
+#reverse way number 5 to 1 print
+number=5
+while number>0:
+    print("Reverse number print:",number)
+    number-=1#number=number-1
