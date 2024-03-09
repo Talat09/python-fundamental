@@ -36,5 +36,11 @@ factorial1=1
 x=1
 while x<=numbers:
     factorial1=factorial1*x
+    #step 1: 1=1*1
+    #step 2: 1=1*2=2
+    #step 3: 2=2*3=6
+    #step 4: 6=6*4=24
+    #step 5: 24=24*5=120
+    #step 6: 120=120*6=720
     x+=1
 print("Factorial1:",factorial1)
