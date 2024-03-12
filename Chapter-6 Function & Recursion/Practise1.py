@@ -49,9 +49,18 @@ def print_factorial(n):
     return fact #return the value of the factorial
 print(print_factorial(5))
 
-#write a program convert USD to BDT
+#4. write a program convert USD to BDT
 def convert_usd_to_bdt(usd):
     bdt=usd*110
     return bdt
 
 print(convert_usd_to_bdt(100),"BDT")
+
+#5. write a program to take input from user,if the number is odd return "odd" if even then print "even"
+def odd_even(num):
+    if num%2==0:
+        return "Even"
+    else:
+        return "Odd"
+    
+print("Your Number is ",odd_even(11))
